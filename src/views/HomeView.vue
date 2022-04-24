@@ -53,7 +53,6 @@ export default {
         `https://newsapi.org/v2/top-headlines?country=in&category=${topic}&apiKey=${key}`
       );
       const data = await res.json();
-      console.log("LOOOOOOOOOK HERE ", data);
       this.articles = data.articles;
     },
   },

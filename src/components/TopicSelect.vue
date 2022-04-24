@@ -68,7 +68,6 @@ export default {
   methods: {
     selected(value) {
       this.currentTopic = value;
-      console.log("Selected topic: ", value);
       this.$emit("get-topic", value);
     },
   },
