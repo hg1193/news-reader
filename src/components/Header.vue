@@ -4,8 +4,10 @@
       <i class="fa-solid fa-newspaper"></i> Indian news feed
     </div>
     <p>
-      API by 
-      <a class="text-slate-600" href="https://newsapi.org/" target="_blank">newsapi.org</a>
+      API by
+      <a class="text-slate-600" href="https://newsapi.org/" target="_blank"
+        >newsapi.org</a
+      >
     </p>
   </header>
 </template>
